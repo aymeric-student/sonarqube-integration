@@ -41,4 +41,4 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONARQUBE_HOST }}
         with:
           args:
-            -Dsonar.projectKey=
+            -Dsonar.projectKey=votybe_vue-pokemon-app
